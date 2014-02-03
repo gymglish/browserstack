@@ -1,0 +1,4 @@
+browserstack
+============
+
+Python browserstack API
