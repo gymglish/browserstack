@@ -73,4 +73,4 @@ def screenshot_to_html(response):
             html += ['<img src="%s" />' % screenshot['image_url']]
     html += ['<br /><br />']
     html += ['</body></html>']
-    return ''.join(html)
+    return '\n'.join(html)
